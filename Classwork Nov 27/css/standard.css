@@ -1,0 +1,21 @@
+.body-class {               /* specifies a named class in reference */
+  background-color: gray;
+  color: blue;
+  font-size: 18px;
+}
+
+.ul-python {
+  background-color: green;
+}
+
+.ul-python ul li {
+  background-color: yellow;
+}
+
+.li-python {
+  background-color: yellow;
+}
+
+div {                       /* specifies a global reference */
+  background-color: purple;
+}

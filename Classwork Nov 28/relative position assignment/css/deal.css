@@ -1,0 +1,15 @@
+div.product {
+  position: relative;
+}
+
+img.item {
+  z-index: 2;
+  position: static;
+}
+
+img.deal {
+  position: absolute;
+  z-index: 1;
+  top: 250px;
+  left: 0px;
+}

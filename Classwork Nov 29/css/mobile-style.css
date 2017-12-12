@@ -1,0 +1,50 @@
+@import "compass/css3";
+
+body {
+  background-color: #feff00;
+  display: block;
+  font-family:serif;
+}
+
+.post {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  font-weight: bolder;
+  background-color: #add8e6;
+}
+
+.post-content {
+  font-weight: 500;
+}
+
+img {
+  width: auto;
+}
+
+.navigation {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.nav-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.nav-item {
+  padding: 5px;
+}

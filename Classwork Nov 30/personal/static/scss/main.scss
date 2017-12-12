@@ -1,0 +1,94 @@
+main {
+	background: url(../../static/img/bg.png) repeat;
+}
+
+#intro.section {
+  background: url(../../static/img/background.jpg) no-repeat center (center / cover);
+}
+
+.container {
+  width: 95%;
+}
+
+.card {
+  margin-bottom: 45px;
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .role {
+    font-size: 1.25rem;
+    position: absolute;
+    right: 38px;
+    top: 24px;
+  }
+
+  .card-subtitle {
+
+  }
+  h4 {
+
+  }
+  h5 {
+    font-size: 1.5rem;
+    margin-bottom: -0.5rem;
+    margin-top: 2rem;
+  }
+  h6 {
+    font-weight: 300;
+    margin-top: .1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+#skills, #experience {
+  .responsive-img {
+      margin: 0 auto;
+      max-height: 100px;
+      padding-bottom: 10px;
+    }
+  .card.large {
+    height: 360px;
+  }
+  h4 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+#experience {
+  .logo {
+    padding: 10px
+  }
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+}
+
+h3 {
+  font-weight: 200;
+  margin-bottom: 60px;
+  margin-top: 0;
+  padding: 30px 40px;
+  text-transform: uppercase;
+}
+
+button.navbar-toggler-left {
+  border-style:none;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.section {
+	padding-bottom: 30px;
+	padding-top: 55px;
+}

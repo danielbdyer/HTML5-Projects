@@ -1,0 +1,42 @@
+body {
+  background-color: white;
+}
+
+.nav-container {
+
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row;
+  justify-content: center;
+}
+
+.nav-item {
+
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.post h1 {
+  background-color:lightBlue;
+}
+
+.post img {
+  width:200px;
+  display:block;
+}
+
+.post-image {
+    float:left;
+    margin-right:10px;
+}
